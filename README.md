@@ -4,10 +4,13 @@ This program simulates a Last Level Cache for a new processor that can be used w
 # Compiling and Executing the program
 The project consists of 3 header files: HelperFunctions.h CacheFunctions.h MESI.h
 3 source files: main.c, HelperFunctions.c, MESI.c
+
 This code was compiled by using a gcc v.6.2
 Compile all the 3 source files.
-When executing the program, atleast the name of the input trace file has to be given as the 1st argument. The name of of the output file can also be mentioned as the second argument
-eg: If the name of the executible is cache, the name of the input is Testcases.din and the name of the output is Output_Testcases.txt, then the commands to compile and run the program will be 
+When executing the program, atleast the name of the input trace file has to be given as the 1st argument. The name of of the output file can also be mentioned as the second argument.
+
+eg: If the name of the executible is cache, the name of the input is Testcases.din and the name of the output is Output_Testcases.txt, then the commands to compile and run the program will be:
+
 gcc -o cache main.c HelperFunctions.c MESI.c
 ./cache Testcases.din Output_Testcases.txt
 
@@ -26,7 +29,7 @@ There is no data storage in the cache as the cache behavior (hits, misses, evict
 is independent of the data.
 
 # Authors:
-Ananth Bhat
-Niraj Thakkar
-Shivank Dhote
+Ananth Bhat,
+Niraj Thakkar,
+Shivank Dhote,
 Sriram VB
