@@ -1,5 +1,5 @@
 # CacheSimulator
-This program simulates a Last Level Cache for a new processor that can be used with up to three other processors in a shared memory configuration.
+This program simulates a last level cache for a processor that can be used with up to three other processors in a shared memory configuration.
 
 # Compiling and Executing the program
 The project consists of 3 header files: HelperFunctions.h, CacheFunctions.h, MESI.h and 
