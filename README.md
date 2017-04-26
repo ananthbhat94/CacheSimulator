@@ -12,6 +12,7 @@ When executing the program, atleast the name of the input trace file has to be g
 eg: If the name of the executible is cache, the name of the input is Testcases.din and the name of the output is Output_Testcases.txt, then the commands to compile and run the program will be:
 
 gcc -o cache main.c HelperFunctions.c MESI.c
+
 ./cache Testcases.din Output_Testcases.txt
 
 # Cache Details
