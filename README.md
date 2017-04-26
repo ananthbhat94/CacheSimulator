@@ -5,7 +5,7 @@ This program simulates a Last Level Cache for a new processor that can be used w
 The project consists of 3 header files: HelperFunctions.h, CacheFunctions.h, MESI.h and 
 3 source files: main.c, HelperFunctions.c, MESI.c
 
-This code was compiled by using a gcc v.6.2
+This code was compiled by using a gcc v.6.2.
 Compile all the 3 source files.
 When executing the program, atleast the name of the input trace file has to be given as the 1st argument. The name of of the output file can also be mentioned as the second argument.
 
