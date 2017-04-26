@@ -1,0 +1,1249 @@
+
+**********Clearing Cache**********
+
+**********MISS**********
+ADDRESS = 50000077
+EVENT = 1 	 Processor Write
+The WAY is 0 and the INDEX is 1
+Iteration : 0 
+Current State: Invalid
+BUS OP: RWIM
+Received Snoop Response: No Hit
+Modified State: Modified
+LRU of current Index before updating:	7 	7 	7 	7 	7 	7 	7 	7 	LRU of current Index after updating:	0 	7 	7 	7 	7 	7 	7 	7 	
+
+**********MISS**********
+ADDRESS = 20000051
+EVENT = 0 	 Processor Data Read
+The WAY is 1 and the INDEX is 1
+Iteration : 1 
+Current State: Invalid
+BUS OP: Read
+Received Snoop Response: Hit
+Modified State: Shared
+LRU of current Index before updating:	0 	7 	7 	7 	7 	7 	7 	7 	LRU of current Index after updating:	1 	0 	7 	7 	7 	7 	7 	7 	
+
+**********MISS**********
+ADDRESS = 20000101
+EVENT = 0 	 Processor Data Read
+The WAY is 0 and the INDEX is 4
+Iteration : 2 
+Current State: Invalid
+BUS OP: Read
+Received Snoop Response: Hit
+Modified State: Shared
+LRU of current Index before updating:	7 	7 	7 	7 	7 	7 	7 	7 	LRU of current Index after updating:	0 	7 	7 	7 	7 	7 	7 	7 	
+
+**********MISS**********
+ADDRESS = 20000202
+EVENT = 0 	 Processor Data Read
+The WAY is 0 and the INDEX is 8
+Iteration : 3 
+Current State: Invalid
+BUS OP: Read
+Received Snoop Response: Hit to a Modified Line
+Modified State: Shared
+LRU of current Index before updating:	7 	7 	7 	7 	7 	7 	7 	7 	LRU of current Index after updating:	0 	7 	7 	7 	7 	7 	7 	7 	
+
+**********HIT**********
+ADDRESS = 20000202
+EVENT = 0 	 Processor Data Read
+The WAY is 0 and the INDEX is 8
+Iteration : 4 
+Current State: Shared
+Received Snoop Response: Hit to a Modified Line
+Modified State: Shared
+LRU of current Index before updating:	0 	7 	7 	7 	7 	7 	7 	7 	LRU of current Index after updating:	0 	7 	7 	7 	7 	7 	7 	7 	
+
+**********HIT**********
+ADDRESS = 20000201
+EVENT = 0 	 Processor Data Read
+The WAY is 0 and the INDEX is 8
+Iteration : 5 
+Current State: Shared
+Received Snoop Response: Hit
+Modified State: Shared
+LRU of current Index before updating:	0 	7 	7 	7 	7 	7 	7 	7 	LRU of current Index after updating:	0 	7 	7 	7 	7 	7 	7 	7 	
+
+**********HIT**********
+ADDRESS = 20000200
+EVENT = 0 	 Processor Data Read
+The WAY is 0 and the INDEX is 8
+Iteration : 6 
+Current State: Shared
+Received Snoop Response: No Hit
+Modified State: Shared
+LRU of current Index before updating:	0 	7 	7 	7 	7 	7 	7 	7 	LRU of current Index after updating:	0 	7 	7 	7 	7 	7 	7 	7 	
+
+**********HIT**********
+ADDRESS = 20000200
+EVENT = 1 	 Processor Write
+The WAY is 0 and the INDEX is 8
+Iteration : 7 
+Current State: Shared
+BUS OP: Invalidate
+Received Snoop Response: No Hit
+Modified State: Modified
+LRU of current Index before updating:	0 	7 	7 	7 	7 	7 	7 	7 	LRU of current Index after updating:	0 	7 	7 	7 	7 	7 	7 	7 	
+
+**********HIT**********
+ADDRESS = 20000051
+EVENT = 1 	 Processor Write
+The WAY is 1 and the INDEX is 1
+Iteration : 8 
+Current State: Shared
+BUS OP: Invalidate
+Received Snoop Response: Hit
+Modified State: Modified
+LRU of current Index before updating:	1 	0 	7 	7 	7 	7 	7 	7 	LRU of current Index after updating:	1 	0 	7 	7 	7 	7 	7 	7 	
+
+**********HIT**********
+ADDRESS = 20000102
+EVENT = 1 	 Processor Write
+The WAY is 0 and the INDEX is 4
+Iteration : 9 
+Current State: Shared
+BUS OP: Invalidate
+Received Snoop Response: Hit to a Modified Line
+Modified State: Modified
+LRU of current Index before updating:	0 	7 	7 	7 	7 	7 	7 	7 	LRU of current Index after updating:	0 	7 	7 	7 	7 	7 	7 	7 	
+
+**********HIT**********
+ADDRESS = 20000100
+EVENT = 1 	 Processor Write
+The WAY is 0 and the INDEX is 4
+Iteration : 10 
+Current State: Modified
+Received Snoop Response: No Hit
+Modified State: Modified
+LRU of current Index before updating:	0 	7 	7 	7 	7 	7 	7 	7 	LRU of current Index after updating:	0 	7 	7 	7 	7 	7 	7 	7 	
+
+**********HIT**********
+ADDRESS = 20000101
+EVENT = 1 	 Processor Write
+The WAY is 0 and the INDEX is 4
+Iteration : 11 
+Current State: Modified
+Received Snoop Response: Hit
+Modified State: Modified
+LRU of current Index before updating:	0 	7 	7 	7 	7 	7 	7 	7 	LRU of current Index after updating:	0 	7 	7 	7 	7 	7 	7 	7 	
+
+**********HIT**********
+ADDRESS = 20000102
+EVENT = 1 	 Processor Write
+The WAY is 0 and the INDEX is 4
+Iteration : 12 
+Current State: Modified
+Received Snoop Response: Hit to a Modified Line
+Modified State: Modified
+LRU of current Index before updating:	0 	7 	7 	7 	7 	7 	7 	7 	LRU of current Index after updating:	0 	7 	7 	7 	7 	7 	7 	7 	
+
+**********HIT**********
+ADDRESS = 20000050
+EVENT = 0 	 Processor Data Read
+The WAY is 1 and the INDEX is 1
+Iteration : 13 
+Current State: Modified
+Received Snoop Response: No Hit
+Modified State: Modified
+LRU of current Index before updating:	1 	0 	7 	7 	7 	7 	7 	7 	LRU of current Index after updating:	1 	0 	7 	7 	7 	7 	7 	7 	
+
+**********HIT**********
+ADDRESS = 20000051
+EVENT = 0 	 Processor Data Read
+The WAY is 1 and the INDEX is 1
+Iteration : 14 
+Current State: Modified
+Received Snoop Response: Hit
+Modified State: Modified
+LRU of current Index before updating:	1 	0 	7 	7 	7 	7 	7 	7 	LRU of current Index after updating:	1 	0 	7 	7 	7 	7 	7 	7 	
+
+**********HIT**********
+ADDRESS = 20000052
+EVENT = 0 	 Processor Data Read
+The WAY is 1 and the INDEX is 1
+Iteration : 15 
+Current State: Modified
+Received Snoop Response: Hit to a Modified Line
+Modified State: Modified
+LRU of current Index before updating:	1 	0 	7 	7 	7 	7 	7 	7 	LRU of current Index after updating:	1 	0 	7 	7 	7 	7 	7 	7 	
+
+**********MISS**********
+ADDRESS = 20000720
+EVENT = 0 	 Processor Data Read
+The WAY is 0 and the INDEX is 28
+Iteration : 16 
+Current State: Invalid
+BUS OP: Read
+Received Snoop Response: No Hit
+Modified State: Exclusive
+LRU of current Index before updating:	7 	7 	7 	7 	7 	7 	7 	7 	LRU of current Index after updating:	0 	7 	7 	7 	7 	7 	7 	7 	
+
+**********MISS**********
+ADDRESS = 20000920
+EVENT = 0 	 Processor Data Read
+The WAY is 0 and the INDEX is 36
+Iteration : 17 
+Current State: Invalid
+BUS OP: Read
+Received Snoop Response: No Hit
+Modified State: Exclusive
+LRU of current Index before updating:	7 	7 	7 	7 	7 	7 	7 	7 	LRU of current Index after updating:	0 	7 	7 	7 	7 	7 	7 	7 	
+
+**********MISS**********
+ADDRESS = 20000004
+EVENT = 0 	 Processor Data Read
+The WAY is 0 and the INDEX is 0
+Iteration : 18 
+Current State: Invalid
+BUS OP: Read
+Received Snoop Response: No Hit
+Modified State: Exclusive
+LRU of current Index before updating:	7 	7 	7 	7 	7 	7 	7 	7 	LRU of current Index after updating:	0 	7 	7 	7 	7 	7 	7 	7 	
+
+**********HIT**********
+ADDRESS = 20000003
+EVENT = 0 	 Processor Data Read
+The WAY is 0 and the INDEX is 0
+Iteration : 19 
+Current State: Exclusive
+Received Snoop Response: No Hit
+Modified State: Exclusive
+LRU of current Index before updating:	0 	7 	7 	7 	7 	7 	7 	7 	LRU of current Index after updating:	0 	7 	7 	7 	7 	7 	7 	7 	
+
+**********HIT**********
+ADDRESS = 20000002
+EVENT = 0 	 Processor Data Read
+The WAY is 0 and the INDEX is 0
+Iteration : 20 
+Current State: Exclusive
+Received Snoop Response: Hit to a Modified Line
+Modified State: Exclusive
+LRU of current Index before updating:	0 	7 	7 	7 	7 	7 	7 	7 	LRU of current Index after updating:	0 	7 	7 	7 	7 	7 	7 	7 	
+
+**********HIT**********
+ADDRESS = 20000001
+EVENT = 0 	 Processor Data Read
+The WAY is 0 and the INDEX is 0
+Iteration : 21 
+Current State: Exclusive
+Received Snoop Response: Hit
+Modified State: Exclusive
+LRU of current Index before updating:	0 	7 	7 	7 	7 	7 	7 	7 	LRU of current Index after updating:	0 	7 	7 	7 	7 	7 	7 	7 	
+
+**********HIT**********
+ADDRESS = 20000004
+EVENT = 0 	 Processor Data Read
+The WAY is 0 and the INDEX is 0
+Iteration : 22 
+Current State: Exclusive
+Received Snoop Response: No Hit
+Modified State: Exclusive
+LRU of current Index before updating:	0 	7 	7 	7 	7 	7 	7 	7 	LRU of current Index after updating:	0 	7 	7 	7 	7 	7 	7 	7 	
+
+**********HIT**********
+ADDRESS = 2000000a
+EVENT = 0 	 Processor Data Read
+The WAY is 0 and the INDEX is 0
+Iteration : 23 
+Current State: Exclusive
+Received Snoop Response: Hit to a Modified Line
+Modified State: Exclusive
+LRU of current Index before updating:	0 	7 	7 	7 	7 	7 	7 	7 	LRU of current Index after updating:	0 	7 	7 	7 	7 	7 	7 	7 	
+
+**********HIT**********
+ADDRESS = 2000003f
+EVENT = 0 	 Processor Data Read
+The WAY is 0 and the INDEX is 0
+Iteration : 24 
+Current State: Exclusive
+Received Snoop Response: No Hit
+Modified State: Exclusive
+LRU of current Index before updating:	0 	7 	7 	7 	7 	7 	7 	7 	LRU of current Index after updating:	0 	7 	7 	7 	7 	7 	7 	7 	
+
+**********HIT**********
+ADDRESS = 2000003c
+EVENT = 0 	 Processor Data Read
+The WAY is 0 and the INDEX is 0
+Iteration : 25 
+Current State: Exclusive
+Received Snoop Response: No Hit
+Modified State: Exclusive
+LRU of current Index before updating:	0 	7 	7 	7 	7 	7 	7 	7 	LRU of current Index after updating:	0 	7 	7 	7 	7 	7 	7 	7 	
+
+**********HIT**********
+ADDRESS = 2000003f
+EVENT = 0 	 Processor Data Read
+The WAY is 0 and the INDEX is 0
+Iteration : 26 
+Current State: Exclusive
+Received Snoop Response: No Hit
+Modified State: Exclusive
+LRU of current Index before updating:	0 	7 	7 	7 	7 	7 	7 	7 	LRU of current Index after updating:	0 	7 	7 	7 	7 	7 	7 	7 	
+
+**********HIT**********
+ADDRESS = 20000030
+EVENT = 1 	 Processor Write
+The WAY is 0 and the INDEX is 0
+Iteration : 27 
+Current State: Exclusive
+Received Snoop Response: No Hit
+Modified State: Modified
+LRU of current Index before updating:	0 	7 	7 	7 	7 	7 	7 	7 	LRU of current Index after updating:	0 	7 	7 	7 	7 	7 	7 	7 	
+
+**********HIT**********
+ADDRESS = 20000721
+EVENT = 1 	 Processor Write
+The WAY is 0 and the INDEX is 28
+Iteration : 28 
+Current State: Exclusive
+Received Snoop Response: Hit
+Modified State: Modified
+LRU of current Index before updating:	0 	7 	7 	7 	7 	7 	7 	7 	LRU of current Index after updating:	0 	7 	7 	7 	7 	7 	7 	7 	
+
+**********HIT**********
+ADDRESS = 20000922
+EVENT = 1 	 Processor Write
+The WAY is 0 and the INDEX is 36
+Iteration : 29 
+Current State: Exclusive
+Received Snoop Response: Hit to a Modified Line
+Modified State: Modified
+LRU of current Index before updating:	0 	7 	7 	7 	7 	7 	7 	7 	LRU of current Index after updating:	0 	7 	7 	7 	7 	7 	7 	7 	
+
+**********HIT**********
+ADDRESS = 20000031
+EVENT = 1 	 Processor Write
+The WAY is 0 and the INDEX is 0
+Iteration : 30 
+Current State: Modified
+Received Snoop Response: Hit
+Modified State: Modified
+LRU of current Index before updating:	0 	7 	7 	7 	7 	7 	7 	7 	LRU of current Index after updating:	0 	7 	7 	7 	7 	7 	7 	7 	
+
+**********HIT**********
+ADDRESS = 20000032
+EVENT = 1 	 Processor Write
+The WAY is 0 and the INDEX is 0
+Iteration : 31 
+Current State: Modified
+Received Snoop Response: Hit to a Modified Line
+Modified State: Modified
+LRU of current Index before updating:	0 	7 	7 	7 	7 	7 	7 	7 	LRU of current Index after updating:	0 	7 	7 	7 	7 	7 	7 	7 	
+
+**********HIT**********
+ADDRESS = 20000038
+EVENT = 1 	 Processor Write
+The WAY is 0 and the INDEX is 0
+Iteration : 32 
+Current State: Modified
+Received Snoop Response: No Hit
+Modified State: Modified
+LRU of current Index before updating:	0 	7 	7 	7 	7 	7 	7 	7 	LRU of current Index after updating:	0 	7 	7 	7 	7 	7 	7 	7 	
+
+**********HIT**********
+ADDRESS = 20000032
+EVENT = 0 	 Processor Data Read
+The WAY is 0 and the INDEX is 0
+Iteration : 33 
+Current State: Modified
+Received Snoop Response: Hit to a Modified Line
+Modified State: Modified
+LRU of current Index before updating:	0 	7 	7 	7 	7 	7 	7 	7 	LRU of current Index after updating:	0 	7 	7 	7 	7 	7 	7 	7 	
+
+**********HIT**********
+ADDRESS = 20000040
+EVENT = 0 	 Processor Data Read
+The WAY is 1 and the INDEX is 1
+Iteration : 34 
+Current State: Modified
+Received Snoop Response: No Hit
+Modified State: Modified
+LRU of current Index before updating:	1 	0 	7 	7 	7 	7 	7 	7 	LRU of current Index after updating:	1 	0 	7 	7 	7 	7 	7 	7 	
+
+**********HIT**********
+ADDRESS = 20000041
+EVENT = 0 	 Processor Data Read
+The WAY is 1 and the INDEX is 1
+Iteration : 35 
+Current State: Modified
+Received Snoop Response: Hit
+Modified State: Modified
+LRU of current Index before updating:	1 	0 	7 	7 	7 	7 	7 	7 	LRU of current Index after updating:	1 	0 	7 	7 	7 	7 	7 	7 	
+
+**********MISS**********
+ADDRESS = 30000050
+EVENT = 1 	 Processor Write
+The WAY is 2 and the INDEX is 1
+Iteration : 36 
+Current State: Invalid
+BUS OP: RWIM
+Received Snoop Response: No Hit
+Modified State: Modified
+LRU of current Index before updating:	1 	0 	7 	7 	7 	7 	7 	7 	LRU of current Index after updating:	2 	1 	0 	7 	7 	7 	7 	7 	
+
+**********MISS**********
+ADDRESS = 30000001
+EVENT = 1 	 Processor Write
+The WAY is 1 and the INDEX is 0
+Iteration : 37 
+Current State: Invalid
+BUS OP: RWIM
+Received Snoop Response: Hit
+Modified State: Modified
+LRU of current Index before updating:	0 	7 	7 	7 	7 	7 	7 	7 	LRU of current Index after updating:	1 	0 	7 	7 	7 	7 	7 	7 	
+
+**********MISS**********
+ADDRESS = 30000102
+EVENT = 1 	 Processor Write
+The WAY is 1 and the INDEX is 4
+Iteration : 38 
+Current State: Invalid
+BUS OP: RWIM
+Received Snoop Response: Hit to a Modified Line
+Modified State: Modified
+LRU of current Index before updating:	0 	7 	7 	7 	7 	7 	7 	7 	LRU of current Index after updating:	1 	0 	7 	7 	7 	7 	7 	7 	
+
+**********MISS**********
+ADDRESS = 11010000
+EVENT = 0 	 Processor Data Read
+The WAY is 0 and the INDEX is 1024
+Iteration : 39 
+Current State: Invalid
+BUS OP: Read
+Received Snoop Response: No Hit
+Modified State: Exclusive
+LRU of current Index before updating:	7 	7 	7 	7 	7 	7 	7 	7 	LRU of current Index after updating:	0 	7 	7 	7 	7 	7 	7 	7 	
+
+**********MISS**********
+ADDRESS = 12010000
+EVENT = 0 	 Processor Data Read
+The WAY is 1 and the INDEX is 1024
+Iteration : 40 
+Current State: Invalid
+BUS OP: Read
+Received Snoop Response: No Hit
+Modified State: Exclusive
+LRU of current Index before updating:	0 	7 	7 	7 	7 	7 	7 	7 	LRU of current Index after updating:	1 	0 	7 	7 	7 	7 	7 	7 	
+
+**********MISS**********
+ADDRESS = 13010000
+EVENT = 0 	 Processor Data Read
+The WAY is 2 and the INDEX is 1024
+Iteration : 41 
+Current State: Invalid
+BUS OP: Read
+Received Snoop Response: No Hit
+Modified State: Exclusive
+LRU of current Index before updating:	1 	0 	7 	7 	7 	7 	7 	7 	LRU of current Index after updating:	2 	1 	0 	7 	7 	7 	7 	7 	
+
+**********MISS**********
+ADDRESS = 14010000
+EVENT = 0 	 Processor Data Read
+The WAY is 3 and the INDEX is 1024
+Iteration : 42 
+Current State: Invalid
+BUS OP: Read
+Received Snoop Response: No Hit
+Modified State: Exclusive
+LRU of current Index before updating:	2 	1 	0 	7 	7 	7 	7 	7 	LRU of current Index after updating:	3 	2 	1 	0 	7 	7 	7 	7 	
+
+**********MISS**********
+ADDRESS = 15010000
+EVENT = 0 	 Processor Data Read
+The WAY is 4 and the INDEX is 1024
+Iteration : 43 
+Current State: Invalid
+BUS OP: Read
+Received Snoop Response: No Hit
+Modified State: Exclusive
+LRU of current Index before updating:	3 	2 	1 	0 	7 	7 	7 	7 	LRU of current Index after updating:	4 	3 	2 	1 	0 	7 	7 	7 	
+
+**********MISS**********
+ADDRESS = 16010000
+EVENT = 0 	 Processor Data Read
+The WAY is 5 and the INDEX is 1024
+Iteration : 44 
+Current State: Invalid
+BUS OP: Read
+Received Snoop Response: No Hit
+Modified State: Exclusive
+LRU of current Index before updating:	4 	3 	2 	1 	0 	7 	7 	7 	LRU of current Index after updating:	5 	4 	3 	2 	1 	0 	7 	7 	
+
+**********MISS**********
+ADDRESS = 17010000
+EVENT = 0 	 Processor Data Read
+The WAY is 6 and the INDEX is 1024
+Iteration : 45 
+Current State: Invalid
+BUS OP: Read
+Received Snoop Response: No Hit
+Modified State: Exclusive
+LRU of current Index before updating:	5 	4 	3 	2 	1 	0 	7 	7 	LRU of current Index after updating:	6 	5 	4 	3 	2 	1 	0 	7 	
+
+**********MISS**********
+ADDRESS = 18010000
+EVENT = 0 	 Processor Data Read
+The WAY is 7 and the INDEX is 1024
+Iteration : 46 
+Current State: Invalid
+BUS OP: Read
+Received Snoop Response: No Hit
+Modified State: Exclusive
+LRU of current Index before updating:	6 	5 	4 	3 	2 	1 	0 	7 	LRU of current Index after updating:	7 	6 	5 	4 	3 	2 	1 	0 	
+
+**********HIT**********
+ADDRESS = 11010000
+EVENT = 0 	 Processor Data Read
+The WAY is 0 and the INDEX is 1024
+Iteration : 47 
+Current State: Exclusive
+Received Snoop Response: No Hit
+Modified State: Exclusive
+LRU of current Index before updating:	7 	6 	5 	4 	3 	2 	1 	0 	LRU of current Index after updating:	0 	7 	6 	5 	4 	3 	2 	1 	
+
+**********HIT**********
+ADDRESS = 12010000
+EVENT = 0 	 Processor Data Read
+The WAY is 1 and the INDEX is 1024
+Iteration : 48 
+Current State: Exclusive
+Received Snoop Response: No Hit
+Modified State: Exclusive
+LRU of current Index before updating:	0 	7 	6 	5 	4 	3 	2 	1 	LRU of current Index after updating:	1 	0 	7 	6 	5 	4 	3 	2 	
+
+**********HIT**********
+ADDRESS = 13010000
+EVENT = 0 	 Processor Data Read
+The WAY is 2 and the INDEX is 1024
+Iteration : 49 
+Current State: Exclusive
+Received Snoop Response: No Hit
+Modified State: Exclusive
+LRU of current Index before updating:	1 	0 	7 	6 	5 	4 	3 	2 	LRU of current Index after updating:	2 	1 	0 	7 	6 	5 	4 	3 	
+
+**********HIT**********
+ADDRESS = 14010000
+EVENT = 0 	 Processor Data Read
+The WAY is 3 and the INDEX is 1024
+Iteration : 50 
+Current State: Exclusive
+Received Snoop Response: No Hit
+Modified State: Exclusive
+LRU of current Index before updating:	2 	1 	0 	7 	6 	5 	4 	3 	LRU of current Index after updating:	3 	2 	1 	0 	7 	6 	5 	4 	
+
+**********HIT**********
+ADDRESS = 15010000
+EVENT = 0 	 Processor Data Read
+The WAY is 4 and the INDEX is 1024
+Iteration : 51 
+Current State: Exclusive
+Received Snoop Response: No Hit
+Modified State: Exclusive
+LRU of current Index before updating:	3 	2 	1 	0 	7 	6 	5 	4 	LRU of current Index after updating:	4 	3 	2 	1 	0 	7 	6 	5 	
+
+**********HIT**********
+ADDRESS = 16010000
+EVENT = 0 	 Processor Data Read
+The WAY is 5 and the INDEX is 1024
+Iteration : 52 
+Current State: Exclusive
+Received Snoop Response: No Hit
+Modified State: Exclusive
+LRU of current Index before updating:	4 	3 	2 	1 	0 	7 	6 	5 	LRU of current Index after updating:	5 	4 	3 	2 	1 	0 	7 	6 	
+
+**********HIT**********
+ADDRESS = 17010000
+EVENT = 0 	 Processor Data Read
+The WAY is 6 and the INDEX is 1024
+Iteration : 53 
+Current State: Exclusive
+Received Snoop Response: No Hit
+Modified State: Exclusive
+LRU of current Index before updating:	5 	4 	3 	2 	1 	0 	7 	6 	LRU of current Index after updating:	6 	5 	4 	3 	2 	1 	0 	7 	
+
+**********HIT**********
+ADDRESS = 18010000
+EVENT = 0 	 Processor Data Read
+The WAY is 7 and the INDEX is 1024
+Iteration : 54 
+Current State: Exclusive
+Received Snoop Response: No Hit
+Modified State: Exclusive
+LRU of current Index before updating:	6 	5 	4 	3 	2 	1 	0 	7 	LRU of current Index after updating:	7 	6 	5 	4 	3 	2 	1 	0 	
+
+**********HIT**********
+ADDRESS = 18010000
+EVENT = 0 	 Processor Data Read
+The WAY is 7 and the INDEX is 1024
+Iteration : 55 
+Current State: Exclusive
+Received Snoop Response: No Hit
+Modified State: Exclusive
+LRU of current Index before updating:	7 	6 	5 	4 	3 	2 	1 	0 	LRU of current Index after updating:	7 	6 	5 	4 	3 	2 	1 	0 	
+
+**********HIT**********
+ADDRESS = 17010000
+EVENT = 0 	 Processor Data Read
+The WAY is 6 and the INDEX is 1024
+Iteration : 56 
+Current State: Exclusive
+Received Snoop Response: No Hit
+Modified State: Exclusive
+LRU of current Index before updating:	7 	6 	5 	4 	3 	2 	1 	0 	LRU of current Index after updating:	7 	6 	5 	4 	3 	2 	0 	1 	
+
+**********HIT**********
+ADDRESS = 16010000
+EVENT = 0 	 Processor Data Read
+The WAY is 5 and the INDEX is 1024
+Iteration : 57 
+Current State: Exclusive
+Received Snoop Response: No Hit
+Modified State: Exclusive
+LRU of current Index before updating:	7 	6 	5 	4 	3 	2 	0 	1 	LRU of current Index after updating:	7 	6 	5 	4 	3 	0 	1 	2 	
+
+**********HIT**********
+ADDRESS = 15010000
+EVENT = 0 	 Processor Data Read
+The WAY is 4 and the INDEX is 1024
+Iteration : 58 
+Current State: Exclusive
+Received Snoop Response: No Hit
+Modified State: Exclusive
+LRU of current Index before updating:	7 	6 	5 	4 	3 	0 	1 	2 	LRU of current Index after updating:	7 	6 	5 	4 	0 	1 	2 	3 	
+
+**********HIT**********
+ADDRESS = 14010000
+EVENT = 0 	 Processor Data Read
+The WAY is 3 and the INDEX is 1024
+Iteration : 59 
+Current State: Exclusive
+Received Snoop Response: No Hit
+Modified State: Exclusive
+LRU of current Index before updating:	7 	6 	5 	4 	0 	1 	2 	3 	LRU of current Index after updating:	7 	6 	5 	0 	1 	2 	3 	4 	
+
+**********HIT**********
+ADDRESS = 13010000
+EVENT = 0 	 Processor Data Read
+The WAY is 2 and the INDEX is 1024
+Iteration : 60 
+Current State: Exclusive
+Received Snoop Response: No Hit
+Modified State: Exclusive
+LRU of current Index before updating:	7 	6 	5 	0 	1 	2 	3 	4 	LRU of current Index after updating:	7 	6 	0 	1 	2 	3 	4 	5 	
+
+**********HIT**********
+ADDRESS = 12010000
+EVENT = 0 	 Processor Data Read
+The WAY is 1 and the INDEX is 1024
+Iteration : 61 
+Current State: Exclusive
+Received Snoop Response: No Hit
+Modified State: Exclusive
+LRU of current Index before updating:	7 	6 	0 	1 	2 	3 	4 	5 	LRU of current Index after updating:	7 	0 	1 	2 	3 	4 	5 	6 	
+
+**********HIT**********
+ADDRESS = 11010000
+EVENT = 0 	 Processor Data Read
+The WAY is 0 and the INDEX is 1024
+Iteration : 62 
+Current State: Exclusive
+Received Snoop Response: No Hit
+Modified State: Exclusive
+LRU of current Index before updating:	7 	0 	1 	2 	3 	4 	5 	6 	LRU of current Index after updating:	0 	1 	2 	3 	4 	5 	6 	7 	
+
+**********MISS**********
+ADDRESS = 60020000
+EVENT = 2 	 Processor Instruction Read
+The WAY is 0 and the INDEX is 2048
+Iteration : 63 
+Current State: Invalid
+BUS OP: Read
+Received Snoop Response: No Hit
+Modified State: Exclusive
+LRU of current Index before updating:	7 	7 	7 	7 	7 	7 	7 	7 	LRU of current Index after updating:	0 	7 	7 	7 	7 	7 	7 	7 	
+
+**********MISS**********
+ADDRESS = 61020000
+EVENT = 2 	 Processor Instruction Read
+The WAY is 1 and the INDEX is 2048
+Iteration : 64 
+Current State: Invalid
+BUS OP: Read
+Received Snoop Response: No Hit
+Modified State: Exclusive
+LRU of current Index before updating:	0 	7 	7 	7 	7 	7 	7 	7 	LRU of current Index after updating:	1 	0 	7 	7 	7 	7 	7 	7 	
+
+**********MISS**********
+ADDRESS = 62020000
+EVENT = 2 	 Processor Instruction Read
+The WAY is 2 and the INDEX is 2048
+Iteration : 65 
+Current State: Invalid
+BUS OP: Read
+Received Snoop Response: No Hit
+Modified State: Exclusive
+LRU of current Index before updating:	1 	0 	7 	7 	7 	7 	7 	7 	LRU of current Index after updating:	2 	1 	0 	7 	7 	7 	7 	7 	
+
+**********MISS**********
+ADDRESS = 63020000
+EVENT = 2 	 Processor Instruction Read
+The WAY is 3 and the INDEX is 2048
+Iteration : 66 
+Current State: Invalid
+BUS OP: Read
+Received Snoop Response: No Hit
+Modified State: Exclusive
+LRU of current Index before updating:	2 	1 	0 	7 	7 	7 	7 	7 	LRU of current Index after updating:	3 	2 	1 	0 	7 	7 	7 	7 	
+
+**********MISS**********
+ADDRESS = 64020000
+EVENT = 2 	 Processor Instruction Read
+The WAY is 4 and the INDEX is 2048
+Iteration : 67 
+Current State: Invalid
+BUS OP: Read
+Received Snoop Response: No Hit
+Modified State: Exclusive
+LRU of current Index before updating:	3 	2 	1 	0 	7 	7 	7 	7 	LRU of current Index after updating:	4 	3 	2 	1 	0 	7 	7 	7 	
+
+**********MISS**********
+ADDRESS = 65020000
+EVENT = 2 	 Processor Instruction Read
+The WAY is 5 and the INDEX is 2048
+Iteration : 68 
+Current State: Invalid
+BUS OP: Read
+Received Snoop Response: No Hit
+Modified State: Exclusive
+LRU of current Index before updating:	4 	3 	2 	1 	0 	7 	7 	7 	LRU of current Index after updating:	5 	4 	3 	2 	1 	0 	7 	7 	
+
+**********MISS**********
+ADDRESS = 66020000
+EVENT = 2 	 Processor Instruction Read
+The WAY is 6 and the INDEX is 2048
+Iteration : 69 
+Current State: Invalid
+BUS OP: Read
+Received Snoop Response: No Hit
+Modified State: Exclusive
+LRU of current Index before updating:	5 	4 	3 	2 	1 	0 	7 	7 	LRU of current Index after updating:	6 	5 	4 	3 	2 	1 	0 	7 	
+
+**********MISS**********
+ADDRESS = 67020000
+EVENT = 2 	 Processor Instruction Read
+The WAY is 7 and the INDEX is 2048
+Iteration : 70 
+Current State: Invalid
+BUS OP: Read
+Received Snoop Response: No Hit
+Modified State: Exclusive
+LRU of current Index before updating:	6 	5 	4 	3 	2 	1 	0 	7 	LRU of current Index after updating:	7 	6 	5 	4 	3 	2 	1 	0 	
+
+**********MISS**********
+ADDRESS = 68020000
+EVENT = 2 	 Processor Instruction Read
+The WAY is 0 and the INDEX is 2048
+Iteration : 71 
+Current State: Invalid
+BUS OP: Read
+Received Snoop Response: No Hit
+Modified State: Exclusive
+LRU of current Index before updating:	7 	6 	5 	4 	3 	2 	1 	0 	LRU of current Index after updating:	0 	7 	6 	5 	4 	3 	2 	1 	
+
+**********MISS**********
+ADDRESS = 60020000
+EVENT = 2 	 Processor Instruction Read
+The WAY is 1 and the INDEX is 2048
+Iteration : 72 
+Current State: Invalid
+BUS OP: Read
+Received Snoop Response: No Hit
+Modified State: Exclusive
+LRU of current Index before updating:	0 	7 	6 	5 	4 	3 	2 	1 	LRU of current Index after updating:	1 	0 	7 	6 	5 	4 	3 	2 	
+
+**********MISS**********
+ADDRESS = 61020000
+EVENT = 2 	 Processor Instruction Read
+The WAY is 2 and the INDEX is 2048
+Iteration : 73 
+Current State: Invalid
+BUS OP: Read
+Received Snoop Response: No Hit
+Modified State: Exclusive
+LRU of current Index before updating:	1 	0 	7 	6 	5 	4 	3 	2 	LRU of current Index after updating:	2 	1 	0 	7 	6 	5 	4 	3 	
+
+**********MISS**********
+ADDRESS = 62020000
+EVENT = 2 	 Processor Instruction Read
+The WAY is 3 and the INDEX is 2048
+Iteration : 74 
+Current State: Invalid
+BUS OP: Read
+Received Snoop Response: No Hit
+Modified State: Exclusive
+LRU of current Index before updating:	2 	1 	0 	7 	6 	5 	4 	3 	LRU of current Index after updating:	3 	2 	1 	0 	7 	6 	5 	4 	
+
+**********MISS**********
+ADDRESS = 63020000
+EVENT = 2 	 Processor Instruction Read
+The WAY is 4 and the INDEX is 2048
+Iteration : 75 
+Current State: Invalid
+BUS OP: Read
+Received Snoop Response: No Hit
+Modified State: Exclusive
+LRU of current Index before updating:	3 	2 	1 	0 	7 	6 	5 	4 	LRU of current Index after updating:	4 	3 	2 	1 	0 	7 	6 	5 	
+
+**********MISS**********
+ADDRESS = 64020000
+EVENT = 2 	 Processor Instruction Read
+The WAY is 5 and the INDEX is 2048
+Iteration : 76 
+Current State: Invalid
+BUS OP: Read
+Received Snoop Response: No Hit
+Modified State: Exclusive
+LRU of current Index before updating:	4 	3 	2 	1 	0 	7 	6 	5 	LRU of current Index after updating:	5 	4 	3 	2 	1 	0 	7 	6 	
+
+**********MISS**********
+ADDRESS = 65020000
+EVENT = 2 	 Processor Instruction Read
+The WAY is 6 and the INDEX is 2048
+Iteration : 77 
+Current State: Invalid
+BUS OP: Read
+Received Snoop Response: No Hit
+Modified State: Exclusive
+LRU of current Index before updating:	5 	4 	3 	2 	1 	0 	7 	6 	LRU of current Index after updating:	6 	5 	4 	3 	2 	1 	0 	7 	
+
+**********MISS**********
+ADDRESS = 66020000
+EVENT = 2 	 Processor Instruction Read
+The WAY is 7 and the INDEX is 2048
+Iteration : 78 
+Current State: Invalid
+BUS OP: Read
+Received Snoop Response: No Hit
+Modified State: Exclusive
+LRU of current Index before updating:	6 	5 	4 	3 	2 	1 	0 	7 	LRU of current Index after updating:	7 	6 	5 	4 	3 	2 	1 	0 	
+
+**********MISS**********
+ADDRESS = 67020000
+EVENT = 2 	 Processor Instruction Read
+The WAY is 0 and the INDEX is 2048
+Iteration : 79 
+Current State: Invalid
+BUS OP: Read
+Received Snoop Response: No Hit
+Modified State: Exclusive
+LRU of current Index before updating:	7 	6 	5 	4 	3 	2 	1 	0 	LRU of current Index after updating:	0 	7 	6 	5 	4 	3 	2 	1 	
+
+**********MISS**********
+ADDRESS = 88880000
+EVENT = 2 	 Processor Instruction Read
+The WAY is 0 and the INDEX is 8192
+Iteration : 80 
+Current State: Invalid
+BUS OP: Read
+Received Snoop Response: No Hit
+Modified State: Exclusive
+LRU of current Index before updating:	7 	7 	7 	7 	7 	7 	7 	7 	LRU of current Index after updating:	0 	7 	7 	7 	7 	7 	7 	7 	
+
+**********MISS**********
+ADDRESS = 88870000
+EVENT = 2 	 Processor Instruction Read
+The WAY is 0 and the INDEX is 7168
+Iteration : 81 
+Current State: Invalid
+BUS OP: Read
+Received Snoop Response: No Hit
+Modified State: Exclusive
+LRU of current Index before updating:	7 	7 	7 	7 	7 	7 	7 	7 	LRU of current Index after updating:	0 	7 	7 	7 	7 	7 	7 	7 	
+
+**********MISS**********
+ADDRESS = 88860000
+EVENT = 2 	 Processor Instruction Read
+The WAY is 0 and the INDEX is 6144
+Iteration : 82 
+Current State: Invalid
+BUS OP: Read
+Received Snoop Response: No Hit
+Modified State: Exclusive
+LRU of current Index before updating:	7 	7 	7 	7 	7 	7 	7 	7 	LRU of current Index after updating:	0 	7 	7 	7 	7 	7 	7 	7 	
+
+**********MISS**********
+ADDRESS = 88850000
+EVENT = 2 	 Processor Instruction Read
+The WAY is 0 and the INDEX is 5120
+Iteration : 83 
+Current State: Invalid
+BUS OP: Read
+Received Snoop Response: No Hit
+Modified State: Exclusive
+LRU of current Index before updating:	7 	7 	7 	7 	7 	7 	7 	7 	LRU of current Index after updating:	0 	7 	7 	7 	7 	7 	7 	7 	
+
+**********MISS**********
+ADDRESS = 88840000
+EVENT = 2 	 Processor Instruction Read
+The WAY is 0 and the INDEX is 4096
+Iteration : 84 
+Current State: Invalid
+BUS OP: Read
+Received Snoop Response: No Hit
+Modified State: Exclusive
+LRU of current Index before updating:	7 	7 	7 	7 	7 	7 	7 	7 	LRU of current Index after updating:	0 	7 	7 	7 	7 	7 	7 	7 	
+
+**********MISS**********
+ADDRESS = 88830000
+EVENT = 2 	 Processor Instruction Read
+The WAY is 0 and the INDEX is 3072
+Iteration : 85 
+Current State: Invalid
+BUS OP: Read
+Received Snoop Response: No Hit
+Modified State: Exclusive
+LRU of current Index before updating:	7 	7 	7 	7 	7 	7 	7 	7 	LRU of current Index after updating:	0 	7 	7 	7 	7 	7 	7 	7 	
+
+**********MISS**********
+ADDRESS = 88820000
+EVENT = 2 	 Processor Instruction Read
+The WAY is 1 and the INDEX is 2048
+Iteration : 86 
+Current State: Invalid
+BUS OP: Read
+Received Snoop Response: No Hit
+Modified State: Exclusive
+LRU of current Index before updating:	0 	7 	6 	5 	4 	3 	2 	1 	LRU of current Index after updating:	1 	0 	7 	6 	5 	4 	3 	2 	
+
+**********MISS**********
+ADDRESS = 88810000
+EVENT = 2 	 Processor Instruction Read
+The WAY is 7 and the INDEX is 1024
+Iteration : 87 
+Current State: Invalid
+BUS OP: Read
+Received Snoop Response: No Hit
+Modified State: Exclusive
+LRU of current Index before updating:	0 	1 	2 	3 	4 	5 	6 	7 	LRU of current Index after updating:	1 	2 	3 	4 	5 	6 	7 	0 	
+
+**********MISS**********
+ADDRESS = d000002
+EVENT = 3 	 Snooped Invalidate
+The WAY is 2 and the INDEX is 0
+Iteration : 88 
+Current State: Invalid
+Put Snoop Result: No Hit
+Modified State: Invalid
+LRU of current Index before updating:	1 	0 	7 	7 	7 	7 	7 	7 	LRU of current Index after updating:	2 	1 	0 	7 	7 	7 	7 	7 	
+
+**********MISS**********
+ADDRESS = d000002
+EVENT = 4 	 Snooped Read
+The WAY is 2 and the INDEX is 0
+Iteration : 89 
+Current State: Invalid
+Put Snoop Result: No Hit
+Modified State: Invalid
+LRU of current Index before updating:	2 	1 	0 	7 	7 	7 	7 	7 	LRU of current Index after updating:	2 	1 	0 	7 	7 	7 	7 	7 	
+
+**********MISS**********
+ADDRESS = d000002
+EVENT = 5 	 Snooped Write
+The WAY is 2 and the INDEX is 0
+Iteration : 90 
+Current State: Invalid
+Put Snoop Result: No Hit
+Modified State: Invalid
+LRU of current Index before updating:	2 	1 	0 	7 	7 	7 	7 	7 	LRU of current Index after updating:	2 	1 	0 	7 	7 	7 	7 	7 	
+
+**********MISS**********
+ADDRESS = d000002
+EVENT = 6 	 Snooped RWIM
+The WAY is 2 and the INDEX is 0
+Iteration : 91 
+Current State: Invalid
+Put Snoop Result: No Hit
+Modified State: Invalid
+LRU of current Index before updating:	2 	1 	0 	7 	7 	7 	7 	7 	LRU of current Index after updating:	2 	1 	0 	7 	7 	7 	7 	7 	
+
+**********MISS**********
+ADDRESS = d000000
+EVENT = 1 	 Processor Write
+The WAY is 2 and the INDEX is 0
+Iteration : 92 
+Current State: Invalid
+BUS OP: RWIM
+Received Snoop Response: No Hit
+Modified State: Modified
+LRU of current Index before updating:	2 	1 	0 	7 	7 	7 	7 	7 	LRU of current Index after updating:	2 	1 	0 	7 	7 	7 	7 	7 	
+
+**********MISS**********
+ADDRESS = ee00000
+EVENT = 1 	 Processor Write
+The WAY is 3 and the INDEX is 0
+Iteration : 93 
+Current State: Invalid
+BUS OP: RWIM
+Received Snoop Response: No Hit
+Modified State: Modified
+LRU of current Index before updating:	2 	1 	0 	7 	7 	7 	7 	7 	LRU of current Index after updating:	3 	2 	1 	0 	7 	7 	7 	7 	
+
+**********HIT**********
+ADDRESS = ee00000
+EVENT = 3 	 Snooped Invalidate
+The WAY is 3 and the INDEX is 0
+Iteration : 94 
+Current State: Modified
+
+ Error: Invalid Transition 
+Put Snoop Result: No Hit
+Modified State: Modified
+LRU of current Index before updating:	3 	2 	1 	0 	7 	7 	7 	7 	LRU of current Index after updating:	3 	2 	1 	0 	7 	7 	7 	7 	
+
+**********HIT**********
+ADDRESS = ee00000
+EVENT = 5 	 Snooped Write
+The WAY is 3 and the INDEX is 0
+Iteration : 95 
+Current State: Modified
+
+ Error: Invalid Transition 
+Put Snoop Result: No Hit
+Modified State: Modified
+LRU of current Index before updating:	3 	2 	1 	0 	7 	7 	7 	7 	LRU of current Index after updating:	3 	2 	1 	0 	7 	7 	7 	7 	
+
+**********HIT**********
+ADDRESS = ee00000
+EVENT = 6 	 Snooped RWIM
+The WAY is 3 and the INDEX is 0
+Iteration : 96 
+Current State: Modified
+Put Snoop Result: Hit to a Modified Line
+BUS OP: Write
+Modified State: Invalid
+Message to Higher Level Cache: Invalidate Address = ee00000 
+LRU of current Index before updating:	3 	2 	1 	0 	7 	7 	7 	7 	LRU of current Index after updating:	3 	2 	1 	0 	7 	7 	7 	7 	
+
+**********HIT**********
+ADDRESS = d000000
+EVENT = 4 	 Snooped Read
+The WAY is 2 and the INDEX is 0
+Iteration : 97 
+Current State: Modified
+Put Snoop Result: Hit to a Modified Line
+BUS OP: Write
+Modified State: Shared
+LRU of current Index before updating:	3 	2 	1 	0 	7 	7 	7 	7 	LRU of current Index after updating:	3 	2 	0 	1 	7 	7 	7 	7 	
+
+**********HIT**********
+ADDRESS = d000000
+EVENT = 5 	 Snooped Write
+The WAY is 2 and the INDEX is 0
+Iteration : 98 
+Current State: Shared
+
+ Error: Invalid Transition 
+Put Snoop Result: Hit to a Modified Line
+Modified State: Shared
+LRU of current Index before updating:	3 	2 	0 	1 	7 	7 	7 	7 	LRU of current Index after updating:	3 	2 	0 	1 	7 	7 	7 	7 	
+
+**********HIT**********
+ADDRESS = d000000
+EVENT = 4 	 Snooped Read
+The WAY is 2 and the INDEX is 0
+Iteration : 99 
+Current State: Shared
+Put Snoop Result: Hit
+Modified State: Shared
+LRU of current Index before updating:	3 	2 	0 	1 	7 	7 	7 	7 	LRU of current Index after updating:	3 	2 	0 	1 	7 	7 	7 	7 	
+
+**********HIT**********
+ADDRESS = d000000
+EVENT = 6 	 Snooped RWIM
+The WAY is 2 and the INDEX is 0
+Iteration : 100 
+Current State: Shared
+Put Snoop Result: No Hit
+Modified State: Invalid
+LRU of current Index before updating:	3 	2 	0 	1 	7 	7 	7 	7 	LRU of current Index after updating:	3 	2 	0 	1 	7 	7 	7 	7 	
+
+**********MISS**********
+ADDRESS = aa000000
+EVENT = 0 	 Processor Data Read
+The WAY is 2 and the INDEX is 0
+Iteration : 101 
+Current State: Invalid
+BUS OP: Read
+Received Snoop Response: No Hit
+Modified State: Exclusive
+LRU of current Index before updating:	3 	2 	0 	1 	7 	7 	7 	7 	LRU of current Index after updating:	3 	2 	0 	1 	7 	7 	7 	7 	
+
+**********MISS**********
+ADDRESS = bb000000
+EVENT = 0 	 Processor Data Read
+The WAY is 3 and the INDEX is 0
+Iteration : 102 
+Current State: Invalid
+BUS OP: Read
+Received Snoop Response: No Hit
+Modified State: Exclusive
+LRU of current Index before updating:	3 	2 	0 	1 	7 	7 	7 	7 	LRU of current Index after updating:	3 	2 	1 	0 	7 	7 	7 	7 	
+
+**********HIT**********
+ADDRESS = aa000000
+EVENT = 3 	 Snooped Invalidate
+The WAY is 2 and the INDEX is 0
+Iteration : 103 
+Current State: Exclusive
+
+ Error: Invalid Transition 
+Put Snoop Result: No Hit
+Modified State: Exclusive
+LRU of current Index before updating:	3 	2 	1 	0 	7 	7 	7 	7 	LRU of current Index after updating:	3 	2 	0 	1 	7 	7 	7 	7 	
+
+**********HIT**********
+ADDRESS = bb000000
+EVENT = 3 	 Snooped Invalidate
+The WAY is 3 and the INDEX is 0
+Iteration : 104 
+Current State: Exclusive
+
+ Error: Invalid Transition 
+Put Snoop Result: No Hit
+Modified State: Exclusive
+LRU of current Index before updating:	3 	2 	0 	1 	7 	7 	7 	7 	LRU of current Index after updating:	3 	2 	1 	0 	7 	7 	7 	7 	
+
+**********HIT**********
+ADDRESS = aa000000
+EVENT = 5 	 Snooped Write
+The WAY is 2 and the INDEX is 0
+Iteration : 105 
+Current State: Exclusive
+
+ Error: Invalid Transition 
+Put Snoop Result: No Hit
+Modified State: Exclusive
+LRU of current Index before updating:	3 	2 	1 	0 	7 	7 	7 	7 	LRU of current Index after updating:	3 	2 	0 	1 	7 	7 	7 	7 	
+
+**********HIT**********
+ADDRESS = bb000000
+EVENT = 5 	 Snooped Write
+The WAY is 3 and the INDEX is 0
+Iteration : 106 
+Current State: Exclusive
+
+ Error: Invalid Transition 
+Put Snoop Result: No Hit
+Modified State: Exclusive
+LRU of current Index before updating:	3 	2 	0 	1 	7 	7 	7 	7 	LRU of current Index after updating:	3 	2 	1 	0 	7 	7 	7 	7 	
+
+**********HIT**********
+ADDRESS = aa000000
+EVENT = 4 	 Snooped Read
+The WAY is 2 and the INDEX is 0
+Iteration : 107 
+Current State: Exclusive
+Put Snoop Result: Hit
+Modified State: Shared
+LRU of current Index before updating:	3 	2 	1 	0 	7 	7 	7 	7 	LRU of current Index after updating:	3 	2 	0 	1 	7 	7 	7 	7 	
+
+**********HIT**********
+ADDRESS = aa000000
+EVENT = 3 	 Snooped Invalidate
+The WAY is 2 and the INDEX is 0
+Iteration : 108 
+Current State: Shared
+Put Snoop Result: No Hit
+Modified State: Invalid
+LRU of current Index before updating:	3 	2 	0 	1 	7 	7 	7 	7 	LRU of current Index after updating:	3 	2 	0 	1 	7 	7 	7 	7 	
+
+**********HIT**********
+ADDRESS = bb000000
+EVENT = 6 	 Snooped RWIM
+The WAY is 3 and the INDEX is 0
+Iteration : 109 
+Current State: Exclusive
+Put Snoop Result: No Hit
+Modified State: Invalid
+LRU of current Index before updating:	3 	2 	0 	1 	7 	7 	7 	7 	LRU of current Index after updating:	3 	2 	1 	0 	7 	7 	7 	7 	
+
+**********Display Cache Lines********
+INDEX: 0
+WAY: 0 	 LRU: 3 	 MESI: Modified 	 TAG: 100
+WAY: 1 	 LRU: 2 	 MESI: Modified 	 TAG: 180
+INDEX: 1
+WAY: 0 	 LRU: 2 	 MESI: Modified 	 TAG: 280
+WAY: 1 	 LRU: 1 	 MESI: Modified 	 TAG: 100
+WAY: 2 	 LRU: 0 	 MESI: Modified 	 TAG: 180
+INDEX: 4
+WAY: 0 	 LRU: 1 	 MESI: Modified 	 TAG: 100
+WAY: 1 	 LRU: 0 	 MESI: Modified 	 TAG: 180
+INDEX: 8
+WAY: 0 	 LRU: 0 	 MESI: Modified 	 TAG: 100
+INDEX: 28
+WAY: 0 	 LRU: 0 	 MESI: Modified 	 TAG: 100
+INDEX: 36
+WAY: 0 	 LRU: 0 	 MESI: Modified 	 TAG: 100
+INDEX: 1024
+WAY: 0 	 LRU: 1 	 MESI: Exclusive 	 TAG: 88
+WAY: 1 	 LRU: 2 	 MESI: Exclusive 	 TAG: 90
+WAY: 2 	 LRU: 3 	 MESI: Exclusive 	 TAG: 98
+WAY: 3 	 LRU: 4 	 MESI: Exclusive 	 TAG: a0
+WAY: 4 	 LRU: 5 	 MESI: Exclusive 	 TAG: a8
+WAY: 5 	 LRU: 6 	 MESI: Exclusive 	 TAG: b0
+WAY: 6 	 LRU: 7 	 MESI: Exclusive 	 TAG: b8
+WAY: 7 	 LRU: 0 	 MESI: Exclusive 	 TAG: fffffc44
+INDEX: 2048
+WAY: 0 	 LRU: 1 	 MESI: Exclusive 	 TAG: 338
+WAY: 1 	 LRU: 0 	 MESI: Exclusive 	 TAG: fffffc44
+WAY: 2 	 LRU: 7 	 MESI: Exclusive 	 TAG: 308
+WAY: 3 	 LRU: 6 	 MESI: Exclusive 	 TAG: 310
+WAY: 4 	 LRU: 5 	 MESI: Exclusive 	 TAG: 318
+WAY: 5 	 LRU: 4 	 MESI: Exclusive 	 TAG: 320
+WAY: 6 	 LRU: 3 	 MESI: Exclusive 	 TAG: 328
+WAY: 7 	 LRU: 2 	 MESI: Exclusive 	 TAG: 330
+INDEX: 3072
+WAY: 0 	 LRU: 0 	 MESI: Exclusive 	 TAG: fffffc44
+INDEX: 4096
+WAY: 0 	 LRU: 0 	 MESI: Exclusive 	 TAG: fffffc44
+INDEX: 5120
+WAY: 0 	 LRU: 0 	 MESI: Exclusive 	 TAG: fffffc44
+INDEX: 6144
+WAY: 0 	 LRU: 0 	 MESI: Exclusive 	 TAG: fffffc44
+INDEX: 7168
+WAY: 0 	 LRU: 0 	 MESI: Exclusive 	 TAG: fffffc44
+INDEX: 8192
+WAY: 0 	 LRU: 0 	 MESI: Exclusive 	 TAG: fffffc44
+
+**********Clearing Cache**********
+
+**********Display Cache Lines********
+
+**********MISS**********
+ADDRESS = 0
+EVENT = 1 	 Processor Write
+The WAY is 0 and the INDEX is 0
+Iteration : 110 
+Current State: Invalid
+BUS OP: RWIM
+Received Snoop Response: No Hit
+Modified State: Modified
+LRU of current Index before updating:	7 	7 	7 	7 	7 	7 	7 	7 	LRU of current Index after updating:	0 	7 	7 	7 	7 	7 	7 	7 	
+
+**********HIT**********
+ADDRESS = 0
+EVENT = 2 	 Processor Instruction Read
+The WAY is 0 and the INDEX is 0
+Iteration : 111 
+Current State: Modified
+Received Snoop Response: No Hit
+Modified State: Modified
+LRU of current Index before updating:	0 	7 	7 	7 	7 	7 	7 	7 	LRU of current Index after updating:	0 	7 	7 	7 	7 	7 	7 	7 	
+
+**********Printing Cache Statistics**********
+Number of Cache Reads: 75 
+Number of Cache Writes: 19 
+Number of hits: 60 
+Number of Misses: 52 
+Hit Ratio: 0.535714 
