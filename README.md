@@ -2,7 +2,7 @@
 This program simulates a Last Level Cache for a new processor that can be used with up to three other processors in a shared memory configuration.
 
 # Compiling and Executing the program
-The project consists of 3 header files: HelperFunctions.h CacheFunctions.h MESI.h
+The project consists of 3 header files: HelperFunctions.h, CacheFunctions.h, MESI.h and 
 3 source files: main.c, HelperFunctions.c, MESI.c
 
 This code was compiled by using a gcc v.6.2
